@@ -1,0 +1,46 @@
+========================================================================================
+eta_tool  Part III embedding, AHMN's content (35 + adjoint 15)
+========================================================================================
+  STEP 1  geometry
+     P0 = [1, 1, 1, -1]          det = -1
+     P1 = [1, 1, -1, -1]         det = +1
+     U = P0 P1                    det = -1
+     -> det U = -1: the coset sector exists, so eta can act. Go to step 2.
+  STEP 2  per multiplet (Part IV's closed form)
+     (4, 0, 0, 0)   x1    sees eta    every SU(2) level balanced: no
+     (2, 1, 1, 0)   x1    sees eta    every SU(2) level balanced: no
+  STEP 3  the content
+     at least one multiplet sees eta -> the content is sensitive to the boundary
+     condition, and the two choices give genuinely different Higgs potentials.
+  SCOPE, always printed: this is PER MULTIPLET. Distinct contents may still collide by
+  cancellation between multiplets; that is open and is not answered here.
+
+========================================================================================
+eta_tool  Part III embedding, a content drawn entirely from Part IV's class Z
+========================================================================================
+  STEP 1  geometry
+     P0 = [1, 1, 1, -1]          det = -1
+     P1 = [1, 1, -1, -1]         det = +1
+     U = P0 P1                    det = -1
+     -> det U = -1: the coset sector exists, so eta can act. Go to step 2.
+  STEP 2  per multiplet (Part IV's closed form)
+     (1, 1, 0, 0)   x1    BLIND       every SU(2) level balanced: yes
+     (3, 2, 1, 0)   x1    BLIND       every SU(2) level balanced: yes
+     (3, 3, 0, 0)   x2    BLIND       every SU(2) level balanced: yes
+  STEP 3  the content
+     every multiplet is blind -> this content is INERT to eta: the boundary
+     condition has no consequence any measurement of this Higgs sector can see,
+     and it cannot help select among boundary-condition classes.
+  SCOPE, always printed: this is PER MULTIPLET. Distinct contents may still collide by
+  cancellation between multiplets; that is open and is not answered here.
+
+========================================================================================
+eta_tool  an embedding with det P0 == det P1 (both -1)
+========================================================================================
+  STEP 1  geometry
+     P0 = [1, 1, 1, -1]          det = -1
+     P1 = [1, 1, -1, 1]          det = -1
+     U = P0 P1                    det = +1
+     -> the winding element is in the IDENTITY component: there is no coset
+        sector, so eta is invisible to EVERY multiplet. No matter needed.
+     VERDICT: eta unobservable, for geometric reasons.

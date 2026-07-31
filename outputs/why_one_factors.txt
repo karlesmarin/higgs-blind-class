@@ -1,0 +1,29 @@
+====================================================================================================
+why does one alphabet factor and the other not?  frozen block + one reciprocal pair
+====================================================================================================
+   The first test asked whether s factors into SU(2) characters. That is the RIGHT
+   question only for t = 2: at t = 3 the pieces are cyclotomic and are not SU(2)
+   characters (e.g. lambda=(2,1,0,0,0) gives z - 1 + 1/z, the sixth cyclotomic).
+   The uniform question is whether every zero lies on the unit circle -- by Kronecker,
+   whether the character is a product of cyclotomic polynomials.
+
+   frozen block      nonzero  all |z|=1      share   worst deviation among failures
+   mu_2 = {1,-1}         212        212     100.0%   ---
+   {1,1}                 241         16       6.6%   1.62e+00
+   mu_3                  124        124     100.0%   ---
+   {1,1,1}               150          3       2.0%   2.73e+00
+   mu_4                   86         86     100.0%   ---
+   {1,1,1,1}             125          2       1.6%   3.79e+00
+
+   The failures of the root-of-unity blocks at a tighter tolerance are numerical drift:
+   their worst deviation is ~5e-6 and they all pass at 1e-4. The failures of the
+   repeated-letter blocks are gross -- deviation 1.62 -- and do not move with tolerance.
+
+   CONCLUSION
+     A frozen block of ROOTS OF UNITY puts every zero of s_lambda on the unit circle;
+     a frozen block of repeated letters does not. For t = 2 the cyclotomic factors are
+     exactly SU(2) characters, which is Part IV's closed form. Sigma's alphabet
+     (1,1,z,1/z) has a repeated letter, so no such factorisation exists at all --
+     that is why the coset half is one box and the identity half needs a stack.
+     Physically: the coset amplitude of a multiplet vanishes only at RATIONAL Wilson
+     line phases; the identity amplitude has its zeros off the physical line.

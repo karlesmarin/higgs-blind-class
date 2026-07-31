@@ -1,0 +1,21 @@
+=== rho = A_odd/A_even as a function of the winding fall-off W_k = 1/|k|^{2p} ===
+   p = 1.5         : rho =   1.0060
+   p = 2.0         : rho =   1.3650
+   p = 2.5         : rho =   3.1638
+   p = 3.0   <- 6D, the BLKT-free value: rho =   7.5115
+   p = 3.5         : rho =  16.6228
+   p = 4.0         : rho =  35.5608
+   p = 5.0         : rho = 156.6149
+   p = 6.0         : rho = 676.8241
+
+=== critical rho of each content:  M2sigma + rho*M2delta = 0 ===
+   base 60 sola           M2sigma=    426 M2delta=    -66 : rho critico =   6.4545 | ahora no rompe | rompe si rho < 6.4545
+                            margen: rho actual 7.5115, hay que moverlo un -14.1% para voltear el veredicto
+   base + testigo #46     M2sigma=   1032 M2delta=     24 : rho critico = -43.0000 | ahora ROMPE | rompe si rho > -43.0000
+                            margen: rho actual 7.5115, hay que moverlo un -672.5% para voltear el veredicto
+
+=== cuantas especies cambiarian de signo al variar p ===
+   p = 2.0 (rho =  1.3650) : 140 de 152 especies empujan hacia la ruptura
+   p = 3.0 (rho =  7.5115) :  94 de 152 especies empujan hacia la ruptura
+   p = 4.0 (rho = 35.5608) :  82 de 152 especies empujan hacia la ruptura
+   p = 6.0 (rho = 676.8241) :  82 de 152 especies empujan hacia la ruptura

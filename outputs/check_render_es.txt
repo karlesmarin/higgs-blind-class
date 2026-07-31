@@ -1,0 +1,38 @@
+check_render: ghu_observability_es.pdf, 27 pages
+
+   overlapping text spans: 0
+
+   rendered for looking at (this is the half a machine cannot do):
+      ..\outputs\render_es\page01.png
+      ..\outputs\render_es\page02.png
+      ..\outputs\render_es\page03.png
+      ..\outputs\render_es\page04.png
+      ..\outputs\render_es\page05.png
+      ..\outputs\render_es\page06.png
+      ..\outputs\render_es\page07.png
+      ..\outputs\render_es\page08.png
+      ..\outputs\render_es\page09.png
+      ..\outputs\render_es\page10.png
+      ..\outputs\render_es\page11.png
+      ..\outputs\render_es\page12.png
+      ..\outputs\render_es\page13.png
+      ..\outputs\render_es\page14.png
+      ..\outputs\render_es\page15.png
+      ..\outputs\render_es\page16.png
+      ..\outputs\render_es\page17.png
+      ..\outputs\render_es\page18.png
+      ..\outputs\render_es\page19.png
+      ..\outputs\render_es\page20.png
+      ..\outputs\render_es\page21.png
+      ..\outputs\render_es\page22.png
+      ..\outputs\render_es\page23.png
+      ..\outputs\render_es\page24.png
+      ..\outputs\render_es\page25.png
+      ..\outputs\render_es\page26.png
+      ..\outputs\render_es\page27.png
+
+   CHECKLIST, one line per figure, to be answered by looking:
+      does every caption describe what is actually drawn?
+      is every axis label, legend and annotation clear of everything else?
+      is anything the caption tells the reader to look at actually visible?
+      do the numbers in the figure match the numbers in the text?

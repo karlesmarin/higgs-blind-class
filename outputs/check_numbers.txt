@@ -1,0 +1,10 @@
+ghu_observability.tex: every printed number against ../outputs/*
+  greppable in an archived run : 86
+  declared non-measurements    : 16
+  NOT FOUND                    : 0
+
+ghu_observability_es.tex: every printed number against ../outputs/*
+  greppable in an archived run : 86
+  declared non-measurements    : 16
+  NOT FOUND                    : 0
+

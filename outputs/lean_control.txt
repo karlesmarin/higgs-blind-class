@@ -1,0 +1,15 @@
+C1  dictionary: 39711 partitions swept, 0 disagreements
+C2  parity  : |Z| = 4735 up to l1 = 60, with l1 even: 0
+C3  count   : k  brute  ceil((k+1)^2/2)  fibre-sum   Gauss+parity
+            0   1      1                1           1      
+            1   2      2                2           2      
+            2   5      5                5           5      
+            3   8      8                8           8      
+            4   13     13               13          13     
+            5   18     18               18          18     
+            6   25     25               25          25     
+            7   32     32               32          32     
+            8   41     41               41          41     
+            ... swept k = 0..29, 0 failures
+C0  falsification: wrong dictionary (c := b) disagrees on 5200 partitions (must be > 0)
+PASS

@@ -1,0 +1,28 @@
+# gate_partv.py  --  2026-07-31
+
+ SELF-TEST of G1 -- each mutation must be caught
+   a word drifted inside a quotation      -> FAIL
+   a new, unclassified quotation          -> FAIL
+   verdict: the gate fires
+
+============================================================================================
+ PRE-PUBLICATION GATE  --  Part V, one pass against primary sources
+============================================================================================
+ [  ok ] G1   quotations verbatim in the cited paper
+            11 quotations, 5 attributed and verbatim in their source
+ [  ok ] G2   equations we cite by number exist in their paper
+            14 equation numbers verified in five primary sources (0 not cited)
+ [  ok ] G3   Lean names cited in the prose exist, no sorry
+            11 cited names declared; both bricks sorry-free
+ [  ok ] G4   blind class recomputed from the bialternant
+            455 in range, 47 blind, every l1 odd, shells match ceil((k+1)^2/2)
+ [  ok ] G5   census recomputed by brute force, N=2..10
+            (N+1)^2 classes and floor((N+1)^2/2) with a coset sector, all N
+ [  ok ] G6   the five mechanical gates, both editions
+            numbers, structure, provenance, render EN+ES, layout EN+ES
+ [  ok ] G7   no citation to undeposited work
+            every self-citation carries a DOI; the companion is absent
+============================================================================================
+ 7 checks | 0 FAIL/ERROR | 0 WARN
+ VERDICT: GREEN - safe to publish
+============================================================================================

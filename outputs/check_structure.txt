@@ -1,0 +1,37 @@
+== ghu_observability.tex
+   labels 46, references 44
+   NEVER referenced : ['sec:ledger', 'sec:reading']
+   referenced but undefined : none
+   fig 1  fig:chain        (tikz)                     referenced_in_body=True
+   fig 2  fig:posit        fig_positivity.pdf         referenced_in_body=True
+   fig 3  fig:zeros        fig_zeros.pdf              referenced_in_body=True
+   fig 4  fig:blind        fig_blindclass.pdf         referenced_in_body=True
+   fig 5  fig:fibre        (tikz)                     referenced_in_body=True
+   fig 6  fig:simplex      fig_simplex.pdf            referenced_in_body=True
+== ghu_observability_es.tex
+   labels 46, references 44
+   NEVER referenced : ['sec:ledger', 'sec:reading']
+   referenced but undefined : none
+   fig 1  fig:chain        (tikz)                     referenced_in_body=True
+   fig 2  fig:posit        fig_positivity_es.pdf      referenced_in_body=True
+   fig 3  fig:zeros        fig_zeros_es.pdf           referenced_in_body=True
+   fig 4  fig:blind        fig_blindclass_es.pdf      referenced_in_body=True
+   fig 5  fig:fibre        (tikz)                     referenced_in_body=True
+   fig 6  fig:simplex      fig_simplex_es.pdf         referenced_in_body=True
+
+== EN vs ES parity
+   secs  EN 11 / ES 11  SAME ORDER
+   eqs   EN 17 / ES 17  SAME ORDER
+   figs  EN 6 / ES 6  SAME ORDER
+   displayed numbers only in EN : none
+   displayed numbers only in ES : none
+
+== summary
+   EN  sections 11  equations 17  figures 6
+       orphan labels        : 2 ['sec:ledger', 'sec:reading']
+       dangling references  : 0 
+       figures unreferenced : 0 
+   ES  sections 11  equations 17  figures 6
+       orphan labels        : 2 ['sec:ledger', 'sec:reading']
+       dangling references  : 0 
+       figures unreferenced : 0 

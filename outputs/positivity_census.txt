@@ -1,0 +1,5 @@
+multiplets                                    : 455
+Sigma with a negative SU(2) coefficient       : 0
+D     with a negative SU(2) coefficient       : 134
+D identically zero                            : 47
+written: E:\proyectos\Curiosity\research\smeft_formalization\part_v\paper\fig_positivity.pdf

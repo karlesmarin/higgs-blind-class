@@ -1,0 +1,25 @@
+============================================================================================
+THIRD ANCHOR: Haba-Harada-Hosotani-Kawamura, Nucl.Phys. B657 (2003) 169 (corrected v3)
+   SU(5) on S^1/Z_2 with TWO Wilson line phases
+============================================================================================
+   fundamental 5 (their 5.9)      MATCH
+      ours    : {'1/2a': 2, '1/2b': 2}
+      theirs  : {'1/2a': 2, '1/2b': 2}
+      charge 0 (dropped, VEV-independent): 1
+   antisymmetric 10 (their 5.9)   MATCH
+      ours    : {'1/2a': 2, '1/2a+1/2b': 2, '1/2a-1/2b': 2, '1/2b': 2}
+      theirs  : {'1/2a': 2, '1/2a+1/2b': 2, '1/2a-1/2b': 2, '1/2b': 2}
+      charge 0 (dropped, VEV-independent): 2
+
+   their f_D has period 2, so the shift by beta in (5.9) is a factor (-1)^m on the
+   winding sum -- A <-> B in Part V's notation. That is the THIRD independent
+   statement of the same twist: AHMN call it an antiperiodic boundary condition,
+   Haba-Yamashita write Qa -> Qa + 1/2, and these authors write a - beta.
+
+   NOT ESTABLISHED, and said so rather than implied: their gauge+ghost potential (5.8).
+   Its charge list a, b, a+-b, 2a, 2b needs their exact generator embedding AND the
+   orbifold parity projection, and we inferred the first and omitted the second. A
+   check built on a guessed setup is not an anchor. It is left for whoever reads
+   their section 5 line by line.
+
+   VERDICT: MATTER REPRESENTATIONS PASS

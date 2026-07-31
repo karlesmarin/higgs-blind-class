@@ -1,0 +1,19 @@
+Proposition (count of Z), verified independently of the proof
+  multiplets swept (lambda_1 <= 24, lambda_4 = 0) : 2925
+  characterisation disagrees with exact D_lambda  : 0
+  branch (a) all beta even        : 286   predicted sum k(k+1)/2      = 286
+  branch (b) self-complementary   : 42   predicted sum floor(k/2)+1  = 42
+  overlap (must be 0)             : 0
+  total                           : 328
+     lambda_1= 1  measured   1  formula   1  ceil((k+1)^2/2)   1
+     lambda_1= 3  measured   2  formula   2  ceil((k+1)^2/2)   2
+     lambda_1= 5  measured   5  formula   5  ceil((k+1)^2/2)   5
+     lambda_1= 7  measured   8  formula   8  ceil((k+1)^2/2)   8
+     lambda_1= 9  measured  13  formula  13  ceil((k+1)^2/2)  13
+     lambda_1=11  measured  18  formula  18  ceil((k+1)^2/2)  18
+     lambda_1=13  measured  25  formula  25  ceil((k+1)^2/2)  25
+     lambda_1=15  measured  32  formula  32  ceil((k+1)^2/2)  32
+     lambda_1=17  measured  41  formula  41  ceil((k+1)^2/2)  41
+     lambda_1=19  measured  50  formula  50  ceil((k+1)^2/2)  50
+     lambda_1=21  measured  61  formula  61  ceil((k+1)^2/2)  61
+     lambda_1=23  measured  72  formula  72  ceil((k+1)^2/2)  72

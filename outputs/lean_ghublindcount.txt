@@ -1,0 +1,8 @@
+=== lake env lean GHUBlindCount.lean  (2026-07-31, toolchain leanprover/lean4:v4.30.0-rc2) ===
+'GHU.blind_l1_odd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GHU.blind_iff_notch' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GHU.blind_iff_N_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GHU.card_shellA' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GHU.card_shellB' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GHU.card_shell' depends on axioms: [propext, Classical.choice, Quot.sound]
+=== exit=0 : 0 errors, 0 warnings, sorry-free ===

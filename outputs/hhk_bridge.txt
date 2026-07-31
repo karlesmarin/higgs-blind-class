@@ -1,0 +1,30 @@
+================================================================================================
+(A) HHK eq. (3.20) reproduced from explicit basis vectors, and (B) the character identity
+================================================================================================
+   cases swept (N <= 8, all [p;q,r;s], reps F / A / Ad) : 1470
+   disagreements with their printed (3.20)               : 0
+   disagreements with  N = (dim + e0 X0 + e1 X1 + e0 e1 XU)/4 : 0
+
+================================================================================================
+(C) the boundary signs (eta_0, eta_1): the redundancy, and what the finite part can see
+================================================================================================
+   cases swept (N <= 6)                                            : 615
+   violations of  (eta_0,eta_1) ~ (-eta_0,-eta_1)   [HHK below (4.3)] : 0
+   violations of  'the finite part sees only eta_0 eta_1'            : 0
+
+================================================================================================
+(D) SU(4): the character at the winding element is Part IV's object, in two regimes
+================================================================================================
+   [p;q,r;s] with det U = -1 : 16, and U has only 2 distinct spectra: [(-1, -1, -1, 1), (-1, 1, 1, 1)]
+   -> U ~ diag(1,1,1,-1) is P0 of Part III; chi_lambda(U) = s_lambda(1,1,1,-1) = D(1).
+
+   SU(4) irreps with lambda_1 <= 12 (lambda_4 = 0)            : 455
+   D_lambda(t) = 0  identically   -- Part IV's class Z        : 47
+   D_lambda(1) = 0  at zero Wilson line phase                 : 47
+   in Z but not in the zero-Wilson-line class (must be 0)     : 0
+   in the zero-Wilson-line class but NOT in Z                 : 0
+   irreps whose D has coefficients of BOTH signs (must be 0)  : 0
+   -> D(1) = 0 <=> D = 0 identically, because nothing can cancel. The two regimes are
+      the same condition, and it is Part IV's class Z.
+
+data written to outputs/hhk_bridge.json

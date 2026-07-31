@@ -1,0 +1,5 @@
+ghu_observability.pdf : 27 pages, threshold 14% of the text height
+  no page has an internal blank band above the threshold.
+
+ghu_observability_es.pdf : 27 pages, threshold 14% of the text height
+  no page has an internal blank band above the threshold.

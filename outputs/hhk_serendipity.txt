@@ -1,0 +1,49 @@
+================================================================================================
+H1  is the equivalence class of a boundary condition just the pair of traces?
+================================================================================================
+   N= 2 : classes    9   (N+1)^2 =    9  OK | one trace per class OK | one class per trace OK
+   N= 3 : classes   16   (N+1)^2 =   16  OK | one trace per class OK | one class per trace OK
+   N= 4 : classes   25   (N+1)^2 =   25  OK | one trace per class OK | one class per trace OK
+   N= 5 : classes   36   (N+1)^2 =   36  OK | one trace per class OK | one class per trace OK
+   N= 6 : classes   49   (N+1)^2 =   49  OK | one trace per class OK | one class per trace OK
+   N= 7 : classes   64   (N+1)^2 =   64  OK | one trace per class OK | one class per trace OK
+   N= 8 : classes   81   (N+1)^2 =   81  OK | one trace per class OK | one class per trace OK
+   N= 9 : classes  100   (N+1)^2 =  100  OK | one trace per class OK | one class per trace OK
+   N=10 : classes  121   (N+1)^2 =  121  OK | one trace per class OK | one class per trace OK
+
+   VERDICT: the class IS the pair (Tr P0, Tr P1) -- and (N+1)^2 follows, because each trace runs over N+1 values
+
+================================================================================================
+H2  is 'eta is invisible to this multiplet' a property of the CLASS?
+================================================================================================
+   classes containing a det U = -1 representative : 12
+   (multiplet, class) pairs checked               : 5460
+   cases where blindness depends on the representative : 0
+   chi at diag(1,1,1,-1) and diag(-1,-1,-1,1) equal up to sign : True
+
+   VERDICT: blindness is a CLASS property -- the theorem's reading stands
+
+================================================================================================
+H3  does the count of blind multiplets survive twice the range?
+================================================================================================
+   irreps swept (lambda_1 <= 24, lambda_4 = 0) : 2925
+   blind multiplets with lambda_1 EVEN         : 0 
+   lambda_1 | blind | ceil((k+1)^2/2), lambda_1 = 2k+1
+        1   |     1 |    1   OK
+        3   |     2 |    2   OK
+        5   |     5 |    5   OK
+        7   |     8 |    8   OK
+        9   |    13 |   13   OK
+       11   |    18 |   18   OK
+       13   |    25 |   25   OK
+       15   |    32 |   32   OK
+       17   |    41 |   41   OK
+       19   |    50 |   50   OK
+       21   |    61 |   61   OK
+       23   |    72 |   72   OK
+   total blind: 328
+
+   VERDICT: the formula holds on the doubled range -- worth trying to prove
+
+================================================================================================
+H1 True   H2 True   H3 True

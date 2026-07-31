@@ -1,0 +1,41 @@
+============================================================================================
+the moment tower of each half, over 286 SU(4) multiplets (lambda_1 <= 10)
+============================================================================================
+                                              identity half   coset half
+   Hankel rank != #distinct m^2                      0             0
+   NOT positive semidefinite                         0            83
+   Cauchy-Schwarz  M_2^2 <= M_0 M_4  FAILS            0             0
+
+   reading: the identity half is the moment sequence of a POSITIVE measure, so it
+   carries inequalities the coset half cannot carry.  M_2 = tr_lambda(T^2) is the
+   multiplet's contribution to the Higgs curvature, and it is bounded by dim and M_4
+   with no model input.
+
+============================================================================================
+how many distinct winding charges does the identity half carry?
+============================================================================================
+   lambda            d(identity)   d(coset)   max exponent of Sigma
+      (0, 0, 0, 0)       1          1            0
+      (1, 0, 0, 0)       2          1            1
+      (2, 0, 0, 0)       3          2            2
+      (3, 0, 0, 0)       4          2            3
+      (4, 0, 0, 0)       5          3            4
+      (5, 0, 0, 0)       6          3            5
+      (6, 0, 0, 0)       7          4            6
+      (7, 0, 0, 0)       8          4            7
+      (8, 0, 0, 0)       9          5            8
+      (9, 0, 0, 0)      10          5            9
+      (10, 0, 0, 0)     11          6           10
+      (1, 1, 0, 0)       2          0            1
+      (2, 1, 0, 0)       3          1            2
+      (3, 1, 0, 0)       4          2            3
+      (4, 1, 0, 0)       5          2            4
+      (5, 1, 0, 0)       6          3            5
+      (6, 1, 0, 0)       7          3            6
+      (7, 1, 0, 0)       8          4            7
+      (8, 1, 0, 0)       9          4            8
+      (9, 1, 0, 0)      10          5            9
+      (10, 1, 0, 0)     11          5           10
+      (2, 2, 0, 0)       3          2            2
+      (3, 2, 0, 0)       4          2            3
+      (4, 2, 0, 0)       5          3            4

@@ -1,0 +1,24 @@
+check_provenance: the status words of the papers we cite
+
+== ghu_observability.tex
+   self-citations found : 2 ['PartIII', 'PartIV']
+   PartIII    ghu_notch.tex                                  all statuses proved
+   PartIV     ghu_secondfixed.tex                            declares SOMETHING verified-and-not-proved
+              its own words: \begin{observation}[verified, not proved] obs:main
+              NOTE: an unpublished draft exists (../../_pending_v5/ghu_secondfixed_V5DRAFT.tex).
+                    The status above is the PUBLISHED one. Quote that one.
+              proof-attributing sentences: 0 flagged, 1 on the ALLOW list
+
+== ghu_observability_es.tex
+   self-citations found : 2 ['PartIII', 'PartIV']
+   PartIII    ghu_notch.tex                                  all statuses proved
+   PartIV     ghu_secondfixed.tex                            declares SOMETHING verified-and-not-proved
+              its own words: \begin{observation}[verified, not proved] obs:main
+              NOTE: an unpublished draft exists (../../_pending_v5/ghu_secondfixed_V5DRAFT.tex).
+                    The status above is the PUBLISHED one. Quote that one.
+              proof-attributing sentences: 0 flagged, 1 on the ALLOW list
+
+== summary
+   findings: 0
+   every proof attributed to our own series matches that paper's own status word,
+   and every self-citation carries an identifier.

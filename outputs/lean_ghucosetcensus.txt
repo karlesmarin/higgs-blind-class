@@ -1,0 +1,9 @@
+# lake env lean GHUCosetCensus.lean  --  2026-07-31
+# (no output above the axiom lines means: no errors, no sorry)
+'GHU.rank_eqv' depends on axioms: [propext, Quot.sound]
+'GHU.label_eqv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GHU.eqv_of_label' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GHU.witness_label' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GHU.coset_parity' depends on axioms: [propext, Quot.sound]
+'GHU.card_classes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GHU.card_cosetClasses' depends on axioms: [propext, Classical.choice, Quot.sound]

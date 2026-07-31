@@ -1,0 +1,22 @@
+============================================================================================
+SECOND ANCHOR: Haba-Yamashita hep-ph/0401185 section 3, SU(3) on S^1/Z_2
+============================================================================================
+   their eq (3.8) charges : ['1', '1/2', '1/2', '0', '0', '-1/2', '-1/2', '-1']
+   ours                   : ['1', '1/2', '1/2', '0', '0', '-1/2', '-1/2', '-1']   MATCH
+   their eq (3.2): parities are (+,+) or (-,-) only, never mixed : MATCH
+
+   their eq (3.9)/(3.10), read as coefficients per charge
+      |Q|      modes    coefficient   their printed term
+      1            2            1   cos(2na)     OK
+      1/2          4            2   2 cos(na)    OK
+      0            2            -   dropped (VEV-independent)  OK
+
+   their eq (3.10) reconstructed from our counting:
+      V_adj(+) = (C/2) sum_n n^-5 [ cos(2na) + 2 cos(na) ]
+      their printed          [ cos(2na) + 2 cos(na) ]
+
+   their eq (3.11): eta = -1 shifts Qa -> Qa + 1/2, i.e. a factor (-1)^n on the
+   winding sum -- which is A <-> B in Part V's notation, the same twist AHMN's gauge
+   sector needed. The two published papers state the same twist in different words.
+
+   VERDICT: ALL CHECKS PASS -- a second published potential reproduced, different group, dimension, orbifold and method

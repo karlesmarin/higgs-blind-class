@@ -1,0 +1,24 @@
+=== CONTROL a c = 0 ===
+   E0''(0) =  -118.950638    E1''(0) =   +91.000087
+   rho = (E0''-E1'')/(E0''+E1'') = 7.5115
+   ewsb_layer.py, por via independiente (A_odd/A_even)   = 7.5115
+   COINCIDE -- la reduccion es correcta
+
+=== lo que la reduccion permite decir SIN resolver el espectro transcendente ===
+   rho = (E0''-E1'')/(E0''+E1'') es una funcion de UNA variable: la razon r = E1''/E0''.
+       rho = (1-r)/(1+r)
+       r = E1''/E0'' = -1.50  ->  rho =   -5.0000
+       r = E1''/E0'' = -0.50  ->  rho =   +3.0000
+       r = E1''/E0'' = -0.30  ->  rho =   +1.8571
+       r = E1''/E0'' = -0.20  ->  rho =   +1.5000
+       r = E1''/E0'' = -0.10  ->  rho =   +1.2222
+       r = E1''/E0'' = +0.00  ->  rho =   +1.0000
+       r = E1''/E0'' = +0.50  ->  rho =   +0.3333
+   a c = 0:  r = -0.765024  ->  rho = 7.5115
+
+   El veredicto de la 60 base voltea en rho = 6.4545, o sea en r = -0.731706.
+   Ahora r = -0.765024.  Hace falta que BLKT mueva r un +4.4% para voltearlo.
+
+   Y como rho = (1-r)/(1+r) recorre TODA la recta real cuando r lo hace, no hay obstruccion
+   estructural: existe un valor de r -- y por tanto, si BLKT lo alcanza, un valor de c --
+   que voltea el veredicto de la base. El del testigo NO depende de rho en absoluto.

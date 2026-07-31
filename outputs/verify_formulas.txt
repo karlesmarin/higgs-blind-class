@@ -1,0 +1,32 @@
+================================================================================================
+Part V: every displayed equation against an exact computation
+   range: SU(4) irreps with lambda_1 <= 10, lambda_4 = 0  ->  286 multiplets
+================================================================================================
+   eq        what             checks passed   verdict
+   (1),(2)   root, dets            1 / 1      PASS det P0=-1, det P2=+1, det U6=-1
+   (4)       alphabets             1 / 1      PASS definitional: (1,1,t,1/t) and (1,-1,t,1/t)
+   (10)      conjugation         572 / 572    PASS Sigma fixed, D by (-1)^{lambda_1}
+   (8)       the det twist       572 / 572    PASS same irrep; D flips, Sigma does not
+   (9)       A,B mode counts    9152 / 9152   PASS non-negative integers at every charge
+   (6)       dimension/index    4862 / 4862   PASS (Sigma_chi +- D_chi)/2 in Z_{>=0}
+   (7)       one sign            286 / 286    PASS no D has coefficients of both signs
+   (5)       Part IV closed form    286 / 286    PASS |D| = |chi chi chi| off the beta-set
+   (11)      identity stack      286 / 286    PASS support fixed by m_i >= 0
+   (11b)     range is no choice    180 / 180    PASS 3 boxes agree; degree identity holds; q>p never occurs
+             pairs with all m_i >= 0 across the three boxes: 4104, of which q>p: 0
+   (5b)      box 2nd moment     2197 / 2197   PASS sum m^2 = dim * (4/3) * sum C_2(j_i)
+   (11c)     Sigma factors         5 / 359       into <= 3 SU(2) characters
+             the 5 that do: [(0, 0, 0, 0), (1, 1, 1, 1), (2, 2, 2, 2), (3, 3, 3, 3), (4, 4, 4, 4)]
+   trace/str Sigma=Tr, D=Tr(sigma.)    287 / 287    PASS sigma . even alphabet = odd alphabet, and n+- are counts
+   Prop 2    Z characterised     286 / 286    PASS branches (a),(b), disjoint
+
+   TOTAL FAILURES: 0
+
+   Not re-derived here, and said so rather than implied:
+     eq (3)  V(alpha) as a winding sum        -- definitional, and the assembly that
+             realises it is validated in ghu_potential.py against AHMN's vacuum;
+     eq (5)  the box expansion of V_odd       -- its FOUNDATION is checked above;
+             the exponential rearrangement itself is box_potential.py (Sage);
+     eq (11) is now checked ABOVE, with the range recovered by test, not assumed;
+     eq (12) the three-character identity     -- hhk_bridge.py, 1470 cases, 0 failures;
+     eq (13) the breaking criterion           -- rho archived in blkt_rho.txt.

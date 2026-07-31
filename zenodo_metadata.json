@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "title": "What the Higgs Potential Cannot See: Bulk Matter That Cannot Help Select a Boundary Condition (Part V)",
+    "version": "v1",
+    "upload_type": "publication",
+    "publication_type": "preprint",
+    "publication_date": "2026-07-31",
+    "access_right": "open",
+    "license": "apache-2.0",
+    "language": "eng",
+    "creators": [
+      {
+        "name": "Carles Marín Muñoz",
+        "affiliation": "Independent researcher",
+        "orcid": "0009-0007-5637-9688"
+      }
+    ],
+    "keywords": [
+      "gauge-Higgs unification",
+      "Wilson line",
+      "Hosotani mechanism",
+      "orbifold",
+      "boundary conditions",
+      "equivalence classes",
+      "effective potential",
+      "Higgs potential",
+      "two Higgs doublet model",
+      "Schur function",
+      "orthogonal group",
+      "non-identity component",
+      "twining character",
+      "2-quotient",
+      "Dynkin index",
+      "SU(4)",
+      "Lean 4",
+      "formal verification",
+      "exact computation",
+      "extra dimensions",
+      "hep-ph",
+      "hep-th"
+    ],
+    "description": "<p><strong>The one-loop Wilson-line potential of this model is one operator traced twice &mdash; a dimension and an index &mdash; and the discrete boundary-condition sign multiplies the index alone.</strong></p><p><strong>Winding parity is the O(4) component label.</strong> Part III's translation matrix U&#8326; = P&#8322;P&#8320;&#8315;&sup1; has det = &minus;1, so one trip round the compact direction applies a reflection. The even-winding half of the potential is therefore a character on the identity component of O(4) and the odd-winding half a character on the reflection coset: &Sigma;&lambda; = s&lambda;(1,1,t,t&#8315;&sup1;), a graded dimension whose coefficients are non-negative and can never cancel, and D&lambda; = s&lambda;(1,&minus;1,t,t&#8315;&sup1;), the object of Part IV, an index that can.</p><p><strong>Three published potentials, reproduced.</strong> Akamatsu, Hirose, Maru and Nago write their one-loop coefficients as {A + B(&minus;1)^k&#8322;}; that pair is exactly (&Sigma; &plusmn; D)/2, and their twelve printed numbers come out with nothing fitted, the gauge sector after the antiperiodic twist they state themselves. Haba&ndash;Yamashita (a different group, a different orbifold, a different derivation) and Kawamura, Kodaira, Kojima and Yamashita follow from the same mode counts. The dictionary is the inverse Z&#8322; transform, and it needs no adjustment because there is nothing to adjust.</p><p><strong>The theorem.</strong> Each matter multiplet carries a discrete boundary sign &mdash; in the notation Haba, Hosotani and Kawamura have used since 2004, the product &eta; = &eta;&#8320;&eta;&#8321; of the two orbifold-parity signs &mdash; and it multiplies the coset character and nothing else. Hence (&lambda;,&eta;) ~ (&lambda;*, &eta;(&minus;1)^&lambda;&#8321;) is an observational identity, and &eta; is unobservable <em>exactly</em> on Part IV's vanishing class <em>Z</em>: for those multiplets the boundary condition has no consequence any measurement of this Higgs sector can see. The blind class is counted in closed form &mdash; &lceil;(k+1)&sup2;/2&rceil; at &lambda;&#8321; = 2k+1, and never for &lambda;&#8321; even &mdash; and the count is machine-checked in Lean 4, chained to the certificate Part III already carried, so that it is a theorem about the bialternant determinant and not about a predicate chosen to be countable.</p><p><strong>The other half of the dichotomy.</strong> Invisibility has a second, disjoint cause that has nothing to do with matter: a boundary condition may have no reflection coset at all. The block pair (#{P&#8320;=+1}, #{P&#8321;=&minus;1}) is a <em>complete</em> class invariant, so the classes of rank N are exactly the (N+1)&sup2; of Haba&ndash;Hosotani&ndash;Kawamura, recovered rather than assumed, and exactly &lfloor;(N+1)&sup2;/2&rfloor; of them admit a coset sector &mdash; machine-checked in Lean 4 for every N, not swept over a range.</p><p><strong>One step past a single multiplet, and it is free.</strong> If every non-blind multiplet of a matter content carries the same effective sign &eta;&#7522;&zeta;&#7522;, the content is blind if and only if every multiplet in it is: <em>collective blindness requires sign frustration</em>. That removes the structurally simple half of the degeneracy over contents and leaves the frustrated half, which is the next paper.</p><p><strong>Included:</strong> the paper in English and Spanish; two sorry-free Lean 4 certificates (the blind count and the boundary-condition census), depending only on propext, Classical.choice and Quot.sound; every script that regenerates a quoted number, with its archived output; and the gates the artifact must pass before publication &mdash; among them one that opens the papers we cite and checks our quotations and their equation numbers against them.</p><p><strong>Honesty ledger.</strong> Part IV states its closed form as <em>verified and not proved</em>, and every statement here that rests on it inherits exactly that standing; what does <em>not</em> depend on it is the criterion that identity computes, which is Part III's theorem, so the blind class, its count and its Lean certificate stand regardless. That the relation above generates <em>all</em> observational collisions is verified with 0 exceptions among 910 pairs and is not proved, and is stated as an Observation rather than as part of the theorem. That &Sigma;&lambda; alone separates a multiplet up to conjugation is verified over 969 multiplets and not proved. A claim of an earlier draft &mdash; that the coset half is the only observable in the model that sees charge conjugation &mdash; is false, is contradicted in print, and is retracted inside the paper rather than removed from it.</p><p><strong>Scope.</strong> Every statement is about a <em>model</em>: T&sup2;/Z&#8322; with U&#8325; = 1, at one loop, with boundary conditions that can be simultaneously diagonalised. The theorem is <em>per multiplet</em>. A closed form for the potential is not a closed form for the Higgs mass, which needs the true minimum; and everything that runs the machinery forwards &mdash; predicting a spectrum rather than excluding one &mdash; is deliberately held over.</p>",
+    "notes": "<p>This record belongs to a five-part series on six-dimensional SU(4) gauge-Higgs unification on the orbifold T²/Z₂ and the symmetric-function identity it exported. The parts are independent papers and are best read in order.</p><ol><li><strong>Part I</strong> — Anomaly- and Tadpole-Compatible Fermion Completion of Six-Dimensional SU(4) Gauge-Higgs Unification — embeds a Standard-Model quark block in the (3,60) of SU(4) on T²/Z₂, and proves that on this fermion library the localized tadpole never obstructs an anomaly-free completion.<br>DOI: <a href=\"https://doi.org/10.5281/zenodo.21432625\">10.5281/zenodo.21432625</a> · code: <a href=\"https://github.com/karlesmarin/ghu-su4-completion\">github.com/karlesmarin/ghu-su4-completion</a></li><li><strong>Part II</strong> — Three Gates to a Quark Generation — the exact criterion for which SU(4) representations contain a Standard-Model quark cell among their T²/Z₂ chiral zero modes: (a+2b+3c) odd, b≥1, a+b+c≥3.<br>DOI: <a href=\"https://doi.org/10.5281/zenodo.21432627\">10.5281/zenodo.21432627</a> · code: <a href=\"https://github.com/karlesmarin/su4-sm-cell-criterion\">github.com/karlesmarin/su4-sm-cell-criterion</a></li><li><strong>Part III</strong> — A Centre-Charge Selection Rule for the Wilson-Line Potential — a period of Wilson line is a central gauge transformation up to Weyl, so the centre charge decides which Fourier sector of the potential may exist; the fundamental domain of gauge-Higgs unification is representation-dependent.<br>DOI: <a href=\"https://doi.org/10.5281/zenodo.21438226\">10.5281/zenodo.21438226</a> · code: <a href=\"https://github.com/karlesmarin/centre-parity-selection\">github.com/karlesmarin/centre-parity-selection</a></li><li><strong>Part IV</strong> — Schur Functions at (1,−1,t,t⁻¹) — on the non-identity component of O(4) every four-row Schur function is zero or ± a product of exactly three SU(2) characters read off the 2-quotient; Part III's vanishing class is its zero locus. Verified exhaustively, not proved.<br>DOI: <a href=\"https://doi.org/10.5281/zenodo.21463000\">10.5281/zenodo.21463000</a> · code: <a href=\"https://github.com/karlesmarin/schur-nonidentity-o4\">github.com/karlesmarin/schur-nonidentity-o4</a></li><li><strong>Part V</strong> <strong>(this record)</strong> — What the Higgs Potential Cannot See — winding parity is the O(4) component label, so the one-loop potential is one operator traced twice, a dimension and an index; the boundary-condition sign η = η₀η₁ rides on the index alone and is therefore invisible exactly on Part IV's vanishing class, which is classified, counted in closed form and machine-checked in Lean 4 — as is the complementary census of the boundary conditions that have no coset sector at all.<br>DOI: <a href=\"https://doi.org/10.5281/zenodo.21727095\">10.5281/zenodo.21727095</a> · code: <a href=\"https://github.com/karlesmarin/higgs-blind-class\">github.com/karlesmarin/higgs-blind-class</a></li></ol>",
+    "related_identifiers": [
+      {
+        "identifier": "10.5281/zenodo.21463000",
+        "relation": "continues",
+        "resource_type": "publication-preprint",
+        "scheme": "doi"
+      },
+      {
+        "identifier": "10.5281/zenodo.21438226",
+        "relation": "references",
+        "resource_type": "publication-preprint",
+        "scheme": "doi"
+      },
+      {
+        "identifier": "arXiv:2312.08608",
+        "relation": "references",
+        "resource_type": "publication-preprint",
+        "scheme": "arxiv"
+      },
+      {
+        "identifier": "https://github.com/karlesmarin/higgs-blind-class",
+        "relation": "isSupplementedBy",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+separation of Sigma: how far does the trace alone determine the multiplet?
+
+  lambda_1 <= 12 :  455 multiplets,  252 classes, sizes {1: 49, 2: 203}, self-conjugate 49
+                   fibres that are NOT the orbit {lambda,lambda*} : 0
+  lambda_1 <= 16 :  969 multiplets,  525 classes, sizes {1: 81, 2: 444}, self-conjugate 81
+                   fibres that are NOT the orbit {lambda,lambda*} : 0
+
+  top exponent of Sigma = lambda_1                 : 0 failures of 455
+  top SU(2) coefficient = lambda_2-lambda_3+1      : 0 failures of 455
+  orbits sharing the first three SU(2) coefficients : 28
+     and they are all the family (lambda_1,k,k,0), e.g.
+        (6, 0, 4, 10) -> [((6, 2, 2, 0), (6, 4, 4, 0)), ((6, 3, 3, 0),)]
+        (7, 0, 4, 10) -> [((7, 2, 2, 0), (7, 5, 5, 0)), ((7, 3, 3, 0), (7, 4, 4, 0))]

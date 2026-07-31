@@ -1,0 +1,1 @@
+root: det P0 = -1   det P2 = +1   det U6 = -1
