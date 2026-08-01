@@ -1,6 +1,6 @@
 # 🙈 What the Higgs Potential Cannot See
 
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21727095-1B6F8C?logo=doi&logoColor=white)](https://doi.org/10.5281/zenodo.21727095)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21727094-1B6F8C?logo=doi&logoColor=white)](https://doi.org/10.5281/zenodo.21727094)
 [![License](https://img.shields.io/badge/License-Apache_2.0-B5530F)](LICENSE)
 [![Lean](https://img.shields.io/badge/Lean_4-two_bricks,_sorry--free-2C2C2C?logo=lean)](lean/)
 [![Gates](https://img.shields.io/badge/gates-6_green-1B6F8C)](scripts/gate_partv.py)
@@ -8,7 +8,7 @@
 
 **Bulk matter that cannot help select a boundary condition.**
 
-**📄 Paper (EN + ES), both Lean certificates and every verification script on Zenodo → https://doi.org/10.5281/zenodo.21727095**
+**📄 Paper (EN + ES), both Lean certificates and every verification script on Zenodo → https://doi.org/10.5281/zenodo.21727094**
 
 > ### 📚 Part **V** of a series
 > - **Part I — *Anomaly- and Tadpole-Compatible Fermion Completion of 6D SU(4) GHU***
@@ -110,7 +110,7 @@ draft — that the coset half is the only observable that sees charge conjugatio
   title  = {What the Higgs Potential Cannot See: Bulk Matter That Cannot Help
             Select a Boundary Condition (Part V)},
   year   = {2026},
-  doi    = {10.5281/zenodo.21727095},
+  doi    = {10.5281/zenodo.21727094},
   note   = {Part V of the 6D SU(4) gauge-Higgs unification series}
 }
 ```
