@@ -22,6 +22,8 @@
 > - **Part V — *What the Higgs Potential Cannot See*** (this repo)
 > - **Part VI — *Proton Decay in SU(7) Grand Gauge-Higgs Unification***
 >   → [github.com/karlesmarin/su7-proton-row](https://github.com/karlesmarin/su7-proton-row) · [Zenodo 10.5281/zenodo.22033302](https://doi.org/10.5281/zenodo.22033302)
+> - **Part VII — *An Upper Bound on the Compactification Scale of SU(7) GHU***
+>   → [github.com/karlesmarin/su7-compactification-bound](https://github.com/karlesmarin/su7-compactification-bound) · [Zenodo 10.5281/zenodo.22087251](https://doi.org/10.5281/zenodo.22087251)
 
 The one-loop Wilson-line potential of the 6D SU(4) model is **one operator traced twice** — a
 dimension and an index — and the discrete boundary-condition sign multiplies the index alone.
