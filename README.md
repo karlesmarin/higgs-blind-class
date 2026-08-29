@@ -24,6 +24,8 @@
 >   → [github.com/karlesmarin/su7-proton-row](https://github.com/karlesmarin/su7-proton-row) · [Zenodo 10.5281/zenodo.22033302](https://doi.org/10.5281/zenodo.22033302)
 > - **Part VII — *An Upper Bound on the Compactification Scale of SU(7) GHU***
 >   → [github.com/karlesmarin/su7-compactification-bound](https://github.com/karlesmarin/su7-compactification-bound) · [Zenodo 10.5281/zenodo.22087251](https://doi.org/10.5281/zenodo.22087251)
+> - **Part VIII — *A Certified 2.68 TeV Gap in the Closed-Form Map of the Compactification Scale***
+>   → [github.com/karlesmarin/su7-certified-gap](https://github.com/karlesmarin/su7-certified-gap) · [Zenodo 10.5281/zenodo.22159036](https://doi.org/10.5281/zenodo.22159036)
 
 The one-loop Wilson-line potential of the 6D SU(4) model is **one operator traced twice** — a
 dimension and an index — and the discrete boundary-condition sign multiplies the index alone.
